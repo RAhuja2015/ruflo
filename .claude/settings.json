@@ -278,23 +278,7 @@
   },
   "agents": {
     "source": ".claude/agents",
-    "customAgents": [
-      {
-        "name": "deployment-guard",
-        "path": ".claude/agents/devops/deployment-guard.md",
-        "description": "Pre-deployment safety gatekeeper — runs build, test, security, version checks before any publish"
-      },
-      {
-        "name": "code-review-agent",
-        "path": ".claude/agents/devops/code-review-agent.md",
-        "description": "Automated PR/branch code reviewer — security, architecture, test coverage, CLAUDE.md rules"
-      },
-      {
-        "name": "rollback-coordinator",
-        "path": ".claude/agents/devops/rollback-coordinator.md",
-        "description": "Post-deploy health monitor and npm rollback coordinator for all three packages"
-      }
-    ]
+    "customAgents": []
   },
   "skills": {
     "source": ".claude/commands",
